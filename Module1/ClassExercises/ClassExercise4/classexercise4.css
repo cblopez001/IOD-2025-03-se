@@ -1,0 +1,14 @@
+header{
+    font-style: italic;
+}
+
+.bullets{
+    color: darkgreen;
+    text-decoration: none;
+}
+
+#info{
+    color: rgb(179, 7, 7);
+    text-transform: capitalize;
+    font-weight: bold;
+}
