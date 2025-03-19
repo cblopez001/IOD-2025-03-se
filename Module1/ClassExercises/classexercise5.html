@@ -6,20 +6,20 @@
     <!-- This example button calls a function which displays an alert: -->
     <p>This button is used to send an alert message to the user when clicked.</p>
     <button onclick="helloWorld()">Say Hello</button>
-     <!-- This example button calls a function that changes the color of a targeted element when clicked: -->
+    <!-- This example button calls a function that changes the color of a targeted element when clicked: -->
     <p>This button is used to change the color of the button when clicked.</p>
     <button id="color" onclick="colorChange()">Color Change</button>
 
-        <script>
-            function helloWorld() {
-                alert('Hello World!')
-            }
+    <script>
+        function helloWorld() {
+            alert('Hello World!')
+        }
 
-            function colorChange(){
-                document.getElementById("color").style.color
-= "white"; document.getElementById("color").style.backgroundColor="darkgreen";
-            }
-        </script>
+        function colorChange() {
+            document.getElementById("color").style.color
+                = "white"; document.getElementById("color").style.backgroundColor = "darkgreen";
+        }
+    </script>
 </body>
 
 </html>
