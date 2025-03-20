@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercise3.css">
+
+    <title>Module 1 Exercise 3</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="column" id="column1">
+
+            <h1 id="heading1">Hello</h1>
+            <button id="button1" type="button" class="button" onclick="changeColor1()">Change Me</button>
+        </div>
+
+        <div class="column" id="column2">
+            <h1 id="heading2">World</h1>
+            <button id="button2" type="button" class="button" onclick="changeColor2()">Change Me</button>
+        </div>
+
+    </div>
+    <script>
+        function changeColor1(color) {
+            document.getElementById("column1").style.backgroundColor = "lightgreen";
+            document.getElementById("heading1").style.fontFamily = "serif";
+            document.getElementById("heading1").style.color = "purple";
+            document.getElementById("heading1").textContent = "Happy";
+        }
+
+        function changeColor2(color) {
+            document.getElementById("column2").style.backgroundColor = "lightblue";
+            document.getElementById("heading2").style.fontFamily = "serif";
+            document.getElementById("heading2").style.color = "purple";
+            document.getElementById("heading2").textContent = "Easter";
+        }
+    </script>
+</body>
+
+</html>

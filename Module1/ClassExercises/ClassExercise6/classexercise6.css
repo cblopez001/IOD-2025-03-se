@@ -1,0 +1,128 @@
+
+/* Body styling */
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    position: fixed;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 100%; /* Make the nav span across the entire width of the screen */
+    padding: 20px;
+}
+
+/* Section styling (the layout container) */
+section {
+    display: flex;
+
+}
+
+/* Navigation bar styling */
+nav {
+    display: flex;
+    position: fixed;
+    background-color: gold;
+    width: 100%; /* Make the nav span across the entire width of the screen */
+    padding: 10px; /* Padding for top and bottom */
+    position: relative; 
+    box-sizing: border-box;
+    text-align: center; /* Center the nav items */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display list items in a row */
+    justify-content: center; /* Center the nav items horizontally */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space out the nav items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Article styling (items for sale) */
+article {
+    flex-grow: 1;
+    margin-left: 220px; /* Leave space for the aside */
+    padding: 20px;
+    background-color: whitesmoke;
+    box-sizing: border-box; /* Ensure padding and margin don't affect width */
+}
+
+article div {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+}
+
+article h2 {
+    margin-bottom: 20px;
+}
+
+/* Aside styling */
+aside {
+    width: 220px; /* Fixed width for the aside */
+    background-color: lightgreen;
+    padding: 20px;
+    position: fixed; /* Fixed on the left side */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+/* Footer styling */
+footer {
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+    bottom: 0;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    section {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    nav {
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+
+    aside {
+        position: relative;
+        width: 100%; /* Make aside full-width on smaller screens */
+        bottom: auto;
+        padding: 10px; /* Adjust padding for mobile */
+    }
+
+    article {
+        margin-left: 0; /* No need for left margin on mobile */
+    }
+}
