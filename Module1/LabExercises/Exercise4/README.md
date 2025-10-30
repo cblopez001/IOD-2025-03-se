@@ -1,5 +1,4 @@
-# M1-P4-L4.JavaScript-Functions
-Module 1, Part 4, Lab 4 - JavaScript Functions
+# Module 1 Lab 4 - JavaScript Functions
 
 Use the learnings from this lesson to design some very simple functions. Call them with different values.
 1. Create four (4) functions for the four (4) main mathematical operations (`+`, `-`, `*`, `÷`). Return the calculated value and then output it to the screen.
