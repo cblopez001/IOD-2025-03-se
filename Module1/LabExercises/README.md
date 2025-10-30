@@ -1,4 +1,4 @@
-# M1-P1-L1
+# M1. Lab 1
 
 Module 1, Part 1, Lab 1
 
