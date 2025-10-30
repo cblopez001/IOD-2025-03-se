@@ -1,5 +1,4 @@
-# M1-P9-L8.JavaScript-Dice
-Module 1, Part 9, Lab 8 - JavaScript Dice
+# Module 1 Lab 8 - JavaScript Dice
 
 You have been hired by devsInc to create a landing page for their new project. They want to support people playing tabletop games from home and require a Dice Generator.
 
