@@ -1,5 +1,4 @@
-# M1-P1-L2
-Module 1, Part 1, Lab 2 - HTML
+# Module 1 Lab 2 - HTML
 
 1. Open (or create) your Module1 folder in VS Code.
 2. Use the Terminal feature of VS Code to issue commands to create a new folder inside Module1 for LabExercises and change into it.
