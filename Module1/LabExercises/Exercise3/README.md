@@ -1,5 +1,4 @@
-# M1-P2-L3.HTML-CSS-JS
-Module 1, Part 2, Lab 3 - HTML, CSS, JS
+# Module 1, Lab 3 - HTML, CSS, JS
 
 Using index.html as a starter:
 
