@@ -1,5 +1,4 @@
-# M1-P7-L5.JavaScript-Arrays
-Module 1, Part 7, Lab 5 - JavaScript Arrays
+# Module 1 Lab 5 - JavaScript Arrays
 
 For understanding more about arrays
 
