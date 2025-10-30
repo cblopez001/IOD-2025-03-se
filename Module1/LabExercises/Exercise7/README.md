@@ -1,5 +1,4 @@
-# M1-P9-L7.JavaScript-Unit-Tests
-Module 1, Part 9, Lab 7 - JavaScript Unit Tests
+# Module 1 Lab 7 - JavaScript Unit Tests
 
 Using the functions you created for Lab Exercise 4:
 
