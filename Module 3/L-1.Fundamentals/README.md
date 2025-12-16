@@ -1,7 +1,7 @@
-M3-L1.JavaScript-Fundamentals
+# M3-L1.JavaScript-Fundamentals
 Welcome to the JS Fundamentals Lab! These exercises are designed to test your understanding of JavaScript's core concepts, from type coercion and functions to objects and classes.
 
-1. Type Coercion
+## 1. Type Coercion
 Predict the result of each expression below, then verify your answer by running the code in the browser console.
 
 "" + 1 + 0;
@@ -19,7 +19,7 @@ undefined + 1;
 " \t \n" - 2;
 Bonus: What is the result of undefined == null? What about undefined === null? Why?
 
-2. String vs. Number Operations
+## 2. String vs. Number Operations
 The following code block has some unexpected results and a syntax error.
 
 Your Tasks:
@@ -44,7 +44,7 @@ console.log(division);
 console.log(subtraction);
 console.log(lessThan1);
 console.log(lessThan2);
-3. Truthy and Falsy Values
+## 3. Truthy and Falsy Values
 For each if statement below, predict whether the message will be logged to the console. Explain your reasoning for each.
 
 if (0) console.log('#1: zero is true');
@@ -52,7 +52,7 @@ if ("0") console.log('#2: zero string is true');
 if (null) console.log('#3: null is true');
 if (-1) console.log('#4: negative is true');
 if (1) console.log('#5: positive is true');
-4. The Ternary Operator
+## 4. The Ternary Operator
 Your Tasks:
 Rewrite the if/else statement below using a single line of code with the ternary operator.
 In your own words, explain what the += operator does.
@@ -81,7 +81,7 @@ function getGreeting(name) {
 // const getGreetingArrow = ...
 
 console.log(getGreeting('World'));
-6. Objects and this
+## 6. Objects and this
 This exercise involves completing an object that represents a character from The Princess Bride.
 
 Your Tasks:
@@ -112,7 +112,7 @@ const inigo = {
 
 inigo.greeting(westley);
 inigo.greeting(rugen);
-7. Method Chaining
+## 7. Method Chaining
 The basketballGame object tracks the score of a game.
 
 Your Tasks:
@@ -139,7 +139,7 @@ const basketballGame = {
 
 // Modify the methods to enable chaining like this:
 basketballGame.basket().freeThrow().freeThrow().basket().threePointer().halfTime();
-8. Iterating Over Objects
+## 8. Iterating Over Objects
 Your Tasks:
 a) Write a function that takes an object as an argument and uses a for...in loop to access and print each of its properties and values to the console. b) Test your function using the sydney object. c) Create a new object for a different city and test the function again.
 
@@ -150,7 +150,7 @@ const sydney = {
   founded: '26 January 1788',
   timezone: 'Australia/Sydney'
 };
-9. Primitives vs. Reference Types
+## 9. Primitives vs. Reference Types
 This exercise explores how JavaScript stores objects and primitives by reference vs. by value.
 
 Your Tasks:
@@ -159,7 +159,7 @@ a) Create moreSports equal to teamSports and add new sports to moreSports. b) Cr
 let teamSports = ['Hockey', 'Cricket', 'Volleyball'];
 let dog1 = 'Bingo';
 let cat1 = { name: 'Fluffy', breed: 'Siberian' };
-10. Constructor Functions vs. Classes
+## 10. Constructor Functions vs. Classes
 This exercise compares two ways of creating objects in JavaScript.
 
 Your Tasks:
